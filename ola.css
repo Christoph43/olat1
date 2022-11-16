@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+	box-sizing: border-box;
+
+}
+h3{
+    text-transform: uppercase;
+}
+
+div{
+    border: solid red;
+    width:35vw;
+    height: 25vh;
+}
+
+.relativee{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    background-color: cadetblue;
+}
+
+body{
+    height: 100vh;
+    border: solid blue;
+}
+
+.absolutee{
+    border: solid green;
+    position: absolute;
+    left: 9px;
+    background-color: aqua;
+
+}
+.fixede{
+    border: solid violet;
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    background-color: chartreuse;
+}
+/* z-index (deixa a camada selecionada e sobreimpoe as outras)* /
+
+   
